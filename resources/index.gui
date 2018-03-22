@@ -1,0 +1,52 @@
+<svg class="background">
+  <image href="images/pipboyBg_goals.jpg" />
+  <!-- the time and date -->
+  <text id="time" />
+  <text id="date" />
+  <!-- //the time and date -->  
+  <!-- battery level icon -->
+  <image id="batIcon" href="images/batteryIcon.png" />
+  <rect id="batRect" />
+  <!-- //battery level icon -->
+  <!-- hr -->
+  <text id="hrm" class="hrValue" />
+  <g>
+    <image id="heartIcon" class="heartIcon" href="images/heartIcon.png" />
+    <animate attributeName="opacity" begin="load" from="0.5" to="1" dur="1.3" repeatCount="indefinite" repeatDur="1.3" easing="ease" />
+  </g>
+  <!-- //hr -->
+  <!-- user goals -->
+  <svg class="userGoals">
+    <svg class="activeRap">
+      <rect />
+      <rect class="moveBar" id="activeMinutes" />
+      <image class="activeTime" href="images/stopwatch.png" />
+    </svg>
+    <svg class="caloriesRap">
+      <rect />
+      <rect class="moveBar" id="calories" />
+      <image class="calories" href="images/calories.png" />
+    </svg>
+    <svg class="stepsRap">
+      <rect />
+      <rect class="moveBar" id="steps" />
+      <image class="steps" href="images/steps.png" />
+    </svg>
+  </svg>
+  <!-- //user goals -->
+  <!-- user stats -->
+  <!-- 
+  <svg class="userStats">
+    <text id="active" />
+    <text id="calories" />
+    <text id="distance" />
+    <text id="steps" />
+    <image class="activeTime" href="images/stopwatch.png" />
+    <image class="calories" href="images/calories.png" />
+    <image class="steps" href="images/steps.png" />
+  </svg>
+-->
+  <!-- //user stats -->
+  <image class="avatar" href="images/like.png" />
+  <image href="images/tvEffect.png" />
+</svg>

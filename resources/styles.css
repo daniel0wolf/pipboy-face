@@ -1,0 +1,170 @@
+.background {
+  viewport-fill: #0D0E0D;
+}
+
+#time {
+  text-anchor: end;
+  font-size: 58;
+  font-family: Fabrikat-Black;
+  text-length: 5;
+  x: 282;
+  y: 73;
+  fill: #00ff01;
+}
+
+#date {
+  text-anchor: end;
+  text-length: 10;
+  x: 280;
+  y: 105;
+  font-size: 25;
+  font-family: Fabrikat-Black;
+  fill: #00ff01;
+}
+
+#batIcon {
+  x: 20;
+  y: 62;
+  width: 14;
+  height: 23;
+  display: none;
+}
+#batRect {
+  x: 22;
+  y: 66;
+  width: 10;
+  height: 10;
+  fill: #0B130B;
+}
+
+.heartIcon {
+  x: 199;
+  y: 159;
+  width: 13;
+  height: 11;
+  text-anchor: middle;
+}
+
+.hrValue {
+  font-family: Fabrikat-Black;
+  font-size: 30;
+  fill: #00ff01;
+  text-anchor: start;
+  x: 219;
+  y: 175;
+}
+
+.image { opacity: 0;}
+
+.avatar {
+  width: 115;
+  height: 148;
+  x: 30;
+  y: 113;
+}
+
+.userGoals {
+  x: 207;
+  y: 193;
+}
+
+.userGoals svg {
+  x: 0;
+  y: 0;
+}
+
+.userGoals .activeRap {
+  x: 0;
+}
+
+.userGoals .caloriesRap {
+  x: 23;
+}
+
+.userGoals .stepsRap {
+  x: 46;
+}
+
+.userGoals rect {
+  width: 11;
+  height: 51;
+  x: 0;
+  y: 0;
+  fill: #00ff01;
+}
+
+.userGoals .moveBar {
+  fill: #013901;
+  height: 40;
+  x: 0;
+  y: 0;
+}
+
+.userGoals image {
+  y: 59;
+  x: -2;
+  text-anchor: start;
+}
+
+.userGoals .activeTime {
+  width: 16;
+  height: 18;
+  y: 60;
+}
+
+.userGoals .calories {
+  width: 15;
+  height: 19;
+}
+
+.userGoals .steps {
+  width: 16;
+  height: 20;
+}
+
+
+.userStats {
+  x: 180;
+  y: 218;
+}
+
+.userStats text {
+  font-family: Fabrikat-Black;
+  text-anchor: start;
+  text-length: 100;
+  font-size: 20;
+  x: 35;
+  fill: #00ff01;
+}
+
+.userStats #active {
+  y: 0;
+}
+
+.userStats #calories {
+  y: 27;
+}
+
+.userStats #steps {
+  y: 53;
+}
+
+.userStats image {
+  x: 8;
+  text-anchor: start;
+}
+.userStats .activeTime {
+  width: 16;
+  height: 18;
+  y: -17;
+}
+.userStats .calories {
+  width: 15;
+  height: 19;
+  y: 9;
+}
+.userStats .steps {
+  width: 16;
+  height: 20;
+  y: 35;
+}

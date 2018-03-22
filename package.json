@@ -1,0 +1,23 @@
+{
+  "fitbit": {
+    "appUUID": "233c5539-36ba-4b52-aae0-ae1e4f84f07c",
+    "appType": "clockface",
+    "appDisplayName": "PipBoy",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_internet",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "PipBoy"
+      }
+    }
+  }
+}
